@@ -15,7 +15,7 @@ class Window(Frame):
     def init_window(self):
 
         # changing the title of our master widget      
-        self.master.title("GUI")
+        self.master.title("Temp converter")
 
         # allowing the widget to take the full space of the root window
         self.pack(fill=BOTH, expand=1)
@@ -77,7 +77,7 @@ class Window(Frame):
 root = Tk()
 
 #size of the window
-root.geometry("400x300")
+root.geometry("600x300")
 
 #we create the instance of the application class
 app = Window(root)
